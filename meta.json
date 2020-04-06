@@ -2,7 +2,7 @@
     "courseId": "dcu-r-tutorials",
     "title": "DCU R Tutorials",
     "slogan": "A series of free and interactive tutorials to R",
-    "description": "This tutorial uses contents and examples from the following free online books. They are perfect for beginners, feel free to check them out for further information:  R for Data Science by Wickham and Grolemund (2017), A ModernDive into R and the tidyverse by Ismay and Kim (2019), Learning statistics with R by Navarro (2019), Introduction to Open Data Science by the Ocean Health Index Team (2019), Getting Used to R, RStudio, and R Markdownby Kennedy (2019) and Statistical Thinking for the 21st Century by Poldrack (2020).",
+    "description": "This tutorial uses contents and examples from the following free online books. They are perfect for beginners, feel free to check them out for further information:  R for Data Science by Wickham and Grolemund (2017), A ModernDive into R and the tidyverse by Ismay and Kim (2019), Learning statistics with R by Navarro (2019), Introduction to Open Data Science by the Ocean Health Index Team (2019), Getting Used to R, RStudio, and R Markdown by Kennedy (2019) and Statistical Thinking for the 21st Century by Poldrack (2020).",
     "bio": "Ph.D in Social and Experimental Psychology from the University Grenoble-Alpes, France, my researches are focusing on understanding psycho-physiological responses ‘in the wild’. Now Assistant Professor of Business Research Methods at Dublin City University, my domain of expertise relies on multivariate time series analysis and trend extraction for supervised or unsupervised machine learning classification.",
     "siteUrl": "https://dcu-r-tutorials.netlify.com",
     "twitter": "damien-dupre",

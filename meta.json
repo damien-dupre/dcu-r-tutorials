@@ -1,20 +1,4 @@
 {
-<<<<<<< HEAD
-    "courseId": "course-starter-r",
-    "title": "My cool online course",
-    "slogan": "A free online course",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat semper urna, in accumsan sapien dui ac mi. Pellentesque felis lorem, semper nec velit nec, consectetur placerat enim.",
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat semper urna.",
-    "siteUrl": "https://course-starter-r.netlify.com",
-    "twitter": "spacy_io",
-    "fonts": "IBM+Plex+Mono:500|IBM+Plex+Sans:700|Lato:400,400i,700,700i",
-    "testTemplate": "${test}\ntryCatch({\n\n    test()\n}, error = function(e) {\n    cat(paste(e[1]))\n})",
-    "juniper": {
-        "repo": "ines/course-starter-python",
-        "branch": "binder",
-        "lang": "r",
-        "kernelType": "r",
-=======
     "courseId": "dcu-r-tutorials",
     "title": "DCU R Tutorials",
     "slogan": "A series of free and interactive tutorials to R",
@@ -29,22 +13,13 @@
         "branch": "binder",
         "lang": "r",
         "kernelType": "ir",
->>>>>>> 8797160e6f1d4be56bd3039bf3536065ab633d3c
         "debug": false
     },
     "showProfileImage": true,
     "footerLinks": [
-<<<<<<< HEAD
-        { "text": "Website", "url": "https://spacy.io" },
-        { "text": "Source", "url": "https://github.com/ines/course-starter-python" },
-        { "text": "Built with ♥", "url": "https://github.com/ines/course-starter-python" }
-    ],
-    "theme": "#de7878"
-=======
         { "text": "Website", "url": "https://damien-datasci-blog.netlify.com/" },
         { "text": "Source", "url": "https://github.com/damien-dupre/dcu-r-tutorials" },
         { "text": "Built with ♥", "url": "https://github.com/ines/course-starter-r" }
     ],
     "theme": "#7895de"
->>>>>>> 8797160e6f1d4be56bd3039bf3536065ab633d3c
 }

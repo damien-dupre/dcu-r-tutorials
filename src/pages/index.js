@@ -17,15 +17,12 @@ export default ({ data }) => {
     return (
         <Layout isHome>
             <Logo className={classes.logo} aria-label={siteMetadata.title} />
-<<<<<<< HEAD
-=======
                         <section>
                 <h1 className={classes.subtitle}>A series of free and interactive tutorials to R</h1>
                 <div className={classes.introduction}>
                 <p> Welcome to the DCU R Tutorials. This short course will teach you the basic syntax and vocabulary used to code in R. These tutorials are focusing on the Tidyverse R coding style as it is the best to start in my opinion. At the end of these tutorials you will be able to clean and transform a data set, as well as creating fancy visualisations using R.</p>
                 </div>
             </section>
->>>>>>> 8797160e6f1d4be56bd3039bf3536065ab633d3c
             {chapters.map(({ slug, title, description }) => (
                 <section key={slug} className={classes.chapter}>
                     <h2 className={classes.chapterTitle}>

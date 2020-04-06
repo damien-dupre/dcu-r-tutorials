@@ -6,14 +6,10 @@ This is a starter repo based on the
 [Gatsby](http://gatsbyjs.org/) and [Reveal.js](https://revealjs.com) and the
 back-end code execution uses [Binder](https://mybinder.org) 💖
 
-<<<<<<< HEAD
-_This repo is still under construction._
-=======
 _This repo could use some better code examples. Also, if you have experience
 with R, feel free to suggest improvements to the
 [test logic and template](#adding-tests). It all works as expected, but there
 might be ways to make it more elegant._
->>>>>>> 8797160e6f1d4be56bd3039bf3536065ab633d3c
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ines/courser-starter-r)
 
@@ -21,16 +17,10 @@ might be ways to make it more elegant._
 
 ## ✅ Quickstart
 
-<<<<<<< HEAD
-1. Fork this repo, install it and make sure the app is running locally.
-2. Customize the [`meta.json`](meta.json) and
-   [`binder/requirements.txt`](binder/requirements.txt).
-=======
 1. [Import](https://github.com/new/import) this repo, install it and make sure
    the app is running locally.
 2. Customize the [`meta.json`](meta.json) and
    [`binder/install.R`](binder/install.R).
->>>>>>> 8797160e6f1d4be56bd3039bf3536065ab633d3c
 3. Build a [Binder](https://mybinder.org) from the `binder` branch of this repo.
 4. Add content (chapters, exercises and slides) and optionally add separate
    content license.
@@ -50,8 +40,6 @@ npm install                # Install dependencies
 npm run dev                # Run the development server
 ```
 
-<<<<<<< HEAD
-=======
 ## 💡Introduction
 
 > This section was contributed by [@laderast](https://github.com/laderast).
@@ -176,7 +164,6 @@ code, and solutions and write them to the appropriate directory for your
 project. For more info, please check out the `decampr` repo:
 http://github.com/laderast/decampr
 
->>>>>>> 8797160e6f1d4be56bd3039bf3536065ab633d3c
 ## 🎨 Customization
 
 The app separates its source and content – so you usually shouldn't have to dig
@@ -216,11 +203,7 @@ Gatsby to see the changes if you're editing it while the server is running.**
 | `juniper.debug`      | Logs additional debugging info to the console.                                                                                             |
 | `showProfileImage`   | Whether to show the profile image in the footer. If `true`, a file `static/profile.jpg` needs to be available.                             |
 | `footerLinks`        | List of objects with `"text"` and `"url"` to display as links in the footer.                                                               |
-<<<<<<< HEAD
-| `theme`              | Currently only used for the, progressive web app, e.g. as the theme color on mobile. For the UI theme, edit `theme.sass`.                  |
-=======
 | `theme`              | Currently only used for the progressive web app, e.g. as the theme color on mobile. For the UI theme, edit `theme.sass`.                   |
->>>>>>> 8797160e6f1d4be56bd3039bf3536065ab633d3c
 
 ### Static assets
 
@@ -357,16 +340,10 @@ Container to display slides interactively using Reveal.js and a Markdown file.
 
 Container for multiple-choice question.
 
-<<<<<<< HEAD
-| Argument     | Type  | Description                              |
-| ------------ | ----- | ---------------------------------------- |
-| **children** | nodes | Only `<opt>` components for the options. |
-=======
 | Argument     | Type            | Description                                                                                  |
 | ------------ | --------------- | -------------------------------------------------------------------------------------------- |
 | `id`         | string / number | Optional unique ID. Can be used if more than one choice question is present in one exercise. |
 | **children** | nodes           | Only `<opt>` components for the options.                                                     |
->>>>>>> 8797160e6f1d4be56bd3039bf3536065ab633d3c
 
 ```markdown
 <choice>
@@ -389,21 +366,12 @@ A multiple-choice option.
 
 ### Setting up Binder
 
-<<<<<<< HEAD
-The [`requirements.txt`](binder/requirements.txt) in the repository defines the
-packages that are installed when building it with Binder. You can specify the
-binder settings like repo, branch and kernel type in the `"juniper"` section of
-the `meta.json`. I'd recommend running the very first build via the interface on
-the [Binder website](https://mybinder.org), as this gives you a detailed build
-log and feedback on whether everything worked as expected. Enter your repository
-=======
 The [`install.R`](binder/install.R) in the repository defines the packages that
 are installed when building it with Binder. You can specify the binder settings
 like repo, branch and kernel type in the `"juniper"` section of the `meta.json`.
 I'd recommend running the very first build via the interface on the
 [Binder website](https://mybinder.org), as this gives you a detailed build log
 and feedback on whether everything worked as expected. Enter your repository
->>>>>>> 8797160e6f1d4be56bd3039bf3536065ab633d3c
 URL, click "launch" and wait for it to install the dependencies and build the
 image.
 
@@ -411,9 +379,6 @@ image.
 
 ### Adding tests
 
-<<<<<<< HEAD
-TODO
-=======
 To validate the code when the user hits "Submit", we're currently using a
 slightly hacky trick. Since the R code is sent back to the kernel as a string,
 we can manipulate it and add tests – for example, exercise `exc_01_02_01.R` will
@@ -465,7 +430,6 @@ test <- function() {
 
 The string answer is available as `.solution`, and the test also has access to
 the solution code.
->>>>>>> 8797160e6f1d4be56bd3039bf3536065ab633d3c
 
 ---
 

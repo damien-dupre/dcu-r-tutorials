@@ -65,11 +65,7 @@ const SEO = ({ title, description }) => (
             ]
 
             return (
-<<<<<<< HEAD
-                <Helmet htmlAttributes={{ lang }} title={pageTitle} meta={meta}>
-=======
                 <Helmet defer={false} htmlAttributes={{ lang }} title={pageTitle} meta={meta}>
->>>>>>> 8797160e6f1d4be56bd3039bf3536065ab633d3c
                     {siteMetadata.fonts && (
                         <link
                             href={`https://fonts.googleapis.com/css?family=${siteMetadata.fonts}`}

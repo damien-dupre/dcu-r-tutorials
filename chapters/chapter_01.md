@@ -2,8 +2,8 @@
 title: 'Chapter 1: WaRm Up'
 description:
   'This chapter introduces the basic concepts of R syntax such as arithmetic  operations, logical operations, object assignment, vectors and functions.'
-prev: /chapter0
-next: /chapter1
+prev: /chapter_00
+next: /chapter_02
 type: chapter
 id: 1
 ---

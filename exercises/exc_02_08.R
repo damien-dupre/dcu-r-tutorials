@@ -1,3 +1,5 @@
+library(gapminder)
+library(tidyverse)
 # From the data frame object `gapminder`, create a new column called 
 # `country_upper` with the function `toupper()` using the column `country`:
 

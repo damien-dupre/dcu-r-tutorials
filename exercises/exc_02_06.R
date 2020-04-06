@@ -1,3 +1,5 @@
+library(gapminder)
+library(tidyverse)
 # From the data frame object `gapminder`, select the columns `lifeExp` and 
 # `gdpPercap` and rename them as life_expenctancy and gdp_per_capita:
 

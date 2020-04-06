@@ -1,3 +1,5 @@
+library(gapminder)
+library(tidyverse)
 # Build a ggplot with the `gapminder` dataset and one `geom_boxplot()` layer 
 # which contains the x as `continent`, y as `lifeExp` and color as `continent` 
 # in its `aes()`. Use a theme of your choice as well:

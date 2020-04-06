@@ -1,3 +1,5 @@
+library(gapminder)
+library(tidyverse)
 # Display the evolution of the average life expectancy by continent according 
 # the time:
 

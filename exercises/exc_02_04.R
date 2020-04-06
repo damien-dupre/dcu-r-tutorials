@@ -1,3 +1,5 @@
+library(gapminder)
+library(tidyverse)
 # From the data frame object `gapminder`, filter the countries which population 
 # is higher than 1,000,000,000 in 2007:
 

@@ -50,6 +50,6 @@ Here is some insights from my experience:
 
 ## Conclusion
 
-There is now some nice package to create R interactive tutorial such as {learnr} and {RTutor}. There are great ressources online for example [here](https://skranz.github.io//r/2019/04/29/RTutor_vs_Learnr.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+skranz_R+%28Economics+and+R+%28R+Posts%29%29), [here](https://desiree.rbind.io/post/2020/learnr-iframes/) and [here](https://rstudio.github.io/learnr/). However, they all require a shiny server running in the background. Even if shiny is great, making shiny scalable is not cheap, once the 5 users of the free shinyapps.io account are in, it's the end.
+There is now some nice package to create R interactive tutorial such as {swirl}, {learnr} and {RTutor}. There are great ressources online for example [here](https://swirlstats.com/), [here](https://skranz.github.io//r/2019/04/29/RTutor_vs_Learnr.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+skranz_R+%28Economics+and+R+%28R+Posts%29%29), [here](https://desiree.rbind.io/post/2020/learnr-iframes/) and [here](https://rstudio.github.io/learnr/). However, they all require a shiny server running in the background. Even if shiny is great, making shiny scalable is not cheap, once the 5 users of the free shinyapps.io account are in, it's the end.
 
-Despite being slow to start, if the docker image built by Binder is scalable for free, I'm in. 
+Despite being slow to start and being limited to 100 simultaneous users, if the docker image built by Binder is scalable to my students for free, I'm in. 

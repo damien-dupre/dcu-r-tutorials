@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "courseId": "course-starter-r",
     "title": "My cool online course",
     "slogan": "A free online course",
@@ -13,13 +14,37 @@
         "branch": "binder",
         "lang": "r",
         "kernelType": "r",
+=======
+    "courseId": "dcu-r-tutorials",
+    "title": "DCU R Tutorials",
+    "slogan": "A series of free and interactive tutorials to R",
+    "description": "This tutorial uses contents and examples from the following free online books. They are perfect for beginners, feel free to check them out for further information:  R for Data Science by Wickham and Grolemund (2017), A ModernDive into R and the tidyverse by Ismay and Kim (2019), Learning statistics with R by Navarro (2019), Introduction to Open Data Science by the Ocean Health Index Team (2019), Getting Used to R, RStudio, and R Markdownby Kennedy (2019) and Statistical Thinking for the 21st Century by Poldrack (2020).",
+    "bio": "Ph.D in Social and Experimental Psychology from the University Grenoble-Alpes, France, my researches are focusing on understanding psycho-physiological responses ‘in the wild’. Now Assistant Professor of Business Research Methods at Dublin City University, my domain of expertise relies on multivariate time series analysis and trend extraction for supervised or unsupervised machine learning classification.",
+    "siteUrl": "https://dcu-r-tutorials.netlify.com",
+    "twitter": "damien-dupre",
+    "fonts": "IBM+Plex+Mono:500|IBM+Plex+Sans:700|Lato:400,400i,700,700i",
+    "testTemplate": "success <- function(text) {\n    cat(paste(\"\\033[32m\", text, \"\\033[0m\", sep = \"\"))\n}\n\n.solution <- \"${solutionEscaped}\"\n\n${solution}\n\n${test}\ntryCatch({\n    test()\n}, error = function(e) {\n    cat(paste(\"\\033[31m\", e[1], \"\\033[0m\", sep = \"\"))\n})",
+    "juniper": {
+        "repo": "damien-dupre/dcu-r-tutorials",
+        "branch": "binder",
+        "lang": "r",
+        "kernelType": "ir",
+>>>>>>> 8797160e6f1d4be56bd3039bf3536065ab633d3c
         "debug": false
     },
     "showProfileImage": true,
     "footerLinks": [
+<<<<<<< HEAD
         { "text": "Website", "url": "https://spacy.io" },
         { "text": "Source", "url": "https://github.com/ines/course-starter-python" },
         { "text": "Built with ♥", "url": "https://github.com/ines/course-starter-python" }
     ],
     "theme": "#de7878"
+=======
+        { "text": "Website", "url": "https://damien-datasci-blog.netlify.com/" },
+        { "text": "Source", "url": "https://github.com/damien-dupre/dcu-r-tutorials" },
+        { "text": "Built with ♥", "url": "https://github.com/ines/course-starter-r" }
+    ],
+    "theme": "#7895de"
+>>>>>>> 8797160e6f1d4be56bd3039bf3536065ab633d3c
 }

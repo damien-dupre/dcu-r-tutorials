@@ -169,7 +169,7 @@ Use the pivot_longer() and pivot_wider() functions to reshape the data frame obj
 
 Replace the _ _ _ with the values in the comments:
 
-gapminder %>% 
+gapminder_country <- gapminder %>% 
   select(_ _ _ , _ _ _ , _ _ _) %>% 
   pivot_wider(names_from = _ _ _ , values_from = _ _ _)
   

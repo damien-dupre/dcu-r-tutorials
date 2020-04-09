@@ -15,7 +15,7 @@ id: 0
 
 </exercise>
 
-<exercise id="2" title="Start your session">
+<exercise id="2" title="Exercise: Start your session">
 
 This is an interactive tutorial, which means you will be able to use R without installing anything! 
 

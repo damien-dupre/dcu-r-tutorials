@@ -15,7 +15,7 @@ id: 2
 
 </exercise>
 
-<exercise id="2" title="A look at the gapminder data frame object">
+<exercise id="2" title="Exercise: A look at the gapminder data frame object">
 
 First, we need to load the package {gapminder} with the function library to obtain the `gapminder` data frame object. Then, we can have a look at the `gapminder` object structure using the function `str()` has well as at its first rows/observations using the function `head()`:
 
@@ -36,7 +36,7 @@ Replace the _ _ _ with the name of the data frame object in str( _ _ _ ) and hea
 
 </exercise>
 
-<exercise id="4" title="Practice with filter()">
+<exercise id="4" title="Exercise: Practice with filter()">
 
 Use the filter() function to keep specific observations from the gapminder data frame object:
 
@@ -59,7 +59,7 @@ filter(gapminder, continent == _ _ _ & lifeExp < _ _ _)
 
 </exercise>
 
-<exercise id="6" title="Practice with select()">
+<exercise id="6" title="Exercise: Practice with select()">
 
 Use the select() function to keep specific variables from the gapminder data frame object:
 
@@ -82,7 +82,7 @@ new_data <- select(gapminder, -_ _ _ , -_ _ _)
 
 </exercise>
 
-<exercise id="8" title="Practice with mutate()">
+<exercise id="8" title="Exercise: Practice with mutate()">
 
 Use the mutate() function to create new variables from the existing gapminder variables:
 
@@ -107,7 +107,7 @@ mutate(europe_2007, _ _ _ = pop/sum(_ _ _))
 
 </exercise>
 
-<exercise id="10" title="Practice with summarise()">
+<exercise id="10" title="Exercise: Practice with summarise()">
 
 Use the summarise() function to create statistical summaries from existing variables of the gapminder data frame object:
 
@@ -134,7 +134,7 @@ summarise(_ _ _ , sd_pop = sd(_ _ _))
 
 </exercise>
 
-<exercise id="12" title="Practice with the pipe operator %>%">
+<exercise id="12" title="Exercise: Practice with the pipe operator %>%">
 
 Use the **the pipe** operator `%>%` to create transformation chains from the gapminder data frame object:
 
@@ -161,7 +161,7 @@ gapminder %>%
 
 </exercise>
 
-<exercise id="14" title="Practice pivot">
+<exercise id="14" title="Exercise: Practice pivot">
 
 Use the pivot_longer() and pivot_wider() functions to reshape the data frame objects gapminder and gapminder_country:
 

@@ -22,7 +22,7 @@ id: 3
 
 </exercise>
 
-<exercise id="3" title="Practice the grammar of graphics">
+<exercise id="3" title="Exercise: Practice the grammar of graphics">
 
 Build a ggplot visualisation from the gapminder data frame object with the requirements in the following code comments:
 
@@ -49,7 +49,7 @@ ggplot(_ _ _) +
 
 </exercise>
 
-<exercise id="5" title="Practice the customisation">
+<exercise id="5" title="Exercise: Practice the customisation">
 
 Build a ggplot visualisation from the gapminder data frame object with the requirements in the following code comments:
 
@@ -85,7 +85,7 @@ ggplot(_ _ _ , aes(x = _ _ _ , y = _ _ _)) +
 
 </exercise>
 
-<exercise id="7" title="Practice the pipes with ggplot">
+<exercise id="7" title="Exercise: Practice the pipes with ggplot">
 
 Build a ggplot visualisation from the gapminder data frame object with the requirements in the following code comments:
 

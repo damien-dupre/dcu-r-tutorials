@@ -22,7 +22,7 @@ id: 1
 
 </exercise>
 
-<exercise id="3" title="Load you first package and use its function">
+<exercise id="3" title="Exercise: Load you first package">
 
 The package called "norris" has already been installed. Load this package and use its `get_random_joke()` function without anything in the brackets: 
 
@@ -41,7 +41,7 @@ Replace the _ _ _ with the name of the package.
 
 </exercise>
 
-<exercise id="5" title="Use functions and their arguments">
+<exercise id="5" title="Exercise: Use functions and their arguments">
 
 Replace the _ _ _ in the functions here below to make them up and running. Use the values given in the code comments:
 
@@ -60,7 +60,7 @@ Replace the _ _ _ with the values in the code comments.
 
 </exercise>
 
-<exercise id="7" title="Operations with vectors">
+<exercise id="7" title="Exercise: Operations with vectors">
 
 Replace the _ _ _ in the functions here below to make them up and running. Use the values given in the code comments:
 
@@ -79,7 +79,7 @@ Replace the _ _ _ with the values in the code comments.
 
 </exercise>
 
-<exercise id="9" title="Operations with data frames">
+<exercise id="9" title="Exercise: Operations with data frames">
 
 Replace the _ _ _ in the functions here below to make them up and running. Use the values given in the code comments:
 

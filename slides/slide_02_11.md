@@ -58,7 +58,7 @@ Becomes
 
 ```
 create the object "gapminder_summary_europe" from the object "gapminder", then
-  filter all the valeur exqctly equals to "Europe" in the continent variable, then
+  filter all the values exactly equals to "Europe" in the continent variable, then
   summarise the average population as "m_pop" and the standard deviation as "sd_pop".
 ```
 

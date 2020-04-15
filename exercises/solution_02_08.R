@@ -12,5 +12,5 @@ mutate(gapminder, country_upper = toupper(country))
 
 europe_2007 <- filter(gapminder, continent == "Europe" & year == 2007)
 
-mutate(europe_2007, europe_prop = pop/sum(europe_prop))
+mutate(europe_2007, europe_prop = pop/sum(pop))
 

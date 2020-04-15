@@ -3,7 +3,7 @@ title: 'Chapter 3: Data Visualisation'
 description:
   'This chapter introduces the basics concepts of the {ggplot2} package for data visualisation in the tidyverse.'
 prev: /chapter_02
-next: null
+next: /chapter_04
 type: chapter
 id: 3
 ---

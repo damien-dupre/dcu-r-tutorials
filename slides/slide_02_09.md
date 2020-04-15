@@ -29,7 +29,7 @@ summarise(gapminder_by_year, m_pop = mean(pop))
 
 # The `summarise()` function
 
-Together `group_by()` and `summarise()` provide one of the tools that you’ll use most commonly when working with dplyr: grouped summaries. But before we go any further with this, we need to introduce a powerful new idea: **the pipe**.
+Together `group_by()` and `summarise()` provide one of the tools that you’ll use most commonly when working with dplyr: grouped summaries.
 
 ---
 

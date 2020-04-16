@@ -204,6 +204,7 @@ Well done!
 
 Replace the _ _ _ with the values in the comments:
 
+```
 library(_ _ _) # load package
 
 str(_ _ _) # structure data frame object
@@ -213,7 +214,7 @@ head(_ _ _) # first 6 observations
 gapminder_regression <- lm(formula = _ _ _ , data = _ _ _ ) # linear regression model
 
 _ _ _ (gapminder_regression) # results of the linear regression
-
+```
 </codeblock>
 
 </exercise>

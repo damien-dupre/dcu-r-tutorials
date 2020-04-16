@@ -30,6 +30,7 @@ Build a ggplot visualisation from the gapminder data frame object with the requi
 
 Replace the _ _ _ with the names in the commented code.
 
+```
 ggplot(_ _ _) +
   geom_boxplot(aes(x = _ _ _ , y = _ _ _ , color = _ _ _)) +
   theme_minimal()
@@ -37,7 +38,7 @@ ggplot(_ _ _) +
 ggplot(_ _ _) +
   geom_col(aes(x = _ _ _ , y = _ _ _ , fill = _ _ _)) +
   theme_dark()
-
+```
 </codeblock>
 
 </exercise>
@@ -57,6 +58,7 @@ Build a ggplot visualisation from the gapminder data frame object with the requi
 
 Replace the _ _ _ with the names in the commented code.
 
+```
 ggplot(_ _ _) +
   geom_boxplot(aes(x = _ _ _ , y = _ _ _ , color = _ _ _)) +
   facet_wrap(~ _ _ _) +
@@ -73,7 +75,7 @@ ggplot(_ _ _ , aes(x = _ _ _ , y = _ _ _)) +
   scale_y_continuous(_ _ _) +
   scale_color_discrete(_ _ _) +
   theme_minimal()
-
+```
 </codeblock>
 
 </exercise>
@@ -93,6 +95,7 @@ Build a ggplot visualisation from the gapminder data frame object with the requi
 
 Replace the _ _ _ with the names in the commented code.
 
+```
 _ _ _ %>% 
   group_by(_ _ _ , _ _ _) %>% 
   summarise(m_exp = mean(_ _ _)) %>% 
@@ -112,7 +115,7 @@ _ _ _ %>%
   scale_x_continuous(_ _ _) +
   scale_fill_discrete(_ _ _) +
   theme_bw()
-
+```
 </codeblock>
 
 </exercise>

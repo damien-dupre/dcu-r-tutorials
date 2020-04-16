@@ -21,9 +21,9 @@ First, we need to load the package {gapminder} with the function library to obta
 
 <codeblock id="02_02">
 
-Replace the _ _ _ with the name of the package in library( _ _ _ ).
+Replace the _ _ _ with the name of the package in `library( _ _ _ )`.
 
-Replace the _ _ _ with the name of the data frame object in str( _ _ _ ) and head( _ _ _ ).
+Replace the _ _ _ with the name of the data frame object in `str( _ _ _ )` and `head( _ _ _ )`.
 
 </codeblock>
 
@@ -44,10 +44,11 @@ Use the filter() function to keep specific observations from the gapminder data 
 
 Replace the _ _ _ with the values in the comments:
 
+```
 filter(gapminder, year == _ _ _ & pop > _ _ _)
 
 filter(gapminder, continent == _ _ _ & lifeExp < _ _ _)
-
+```
 </codeblock>
 
 </exercise>
@@ -67,10 +68,11 @@ Use the select() function to keep specific variables from the gapminder data fra
 
 Replace the _ _ _ with the values in the comments:
 
+```
 select(gapminder, life_expectancy = _ _ _ , gdp_per_capita = _ _ _)
 
 new_data <- select(gapminder, -_ _ _ , -_ _ _)
-
+```
 </codeblock>
 
 </exercise>
@@ -90,12 +92,13 @@ Use the mutate() function to create new variables from the existing gapminder va
 
 Replace the _ _ _ with the values in the comments:
 
+```
 mutate(gapminder, _ _ _ = toupper(_ _ _))
 
 europe_2007 <- filter(gapminder, continent == _ _ _ & year == _ _ _)
 
 mutate(europe_2007, _ _ _ = pop/sum(_ _ _))
-
+```
 </codeblock>
 
 </exercise>
@@ -115,6 +118,7 @@ Use the summarise() function to create statistical summaries from existing varia
 
 Replace the _ _ _ with the values in the comments:
 
+```
 gapminder_group <- group_by(gapminder, _ _ _ , _ _ _)
 
 summarise(_ _ _ , m_pop = mean(_ _ _))
@@ -122,7 +126,7 @@ summarise(_ _ _ , m_pop = mean(_ _ _))
 gapminder_group <- group_by(gapminder, _ _ _ , _ _ _)
 
 summarise(_ _ _ , sd_pop = sd(_ _ _))
-
+```
 </codeblock>
 
 </exercise>
@@ -142,6 +146,7 @@ Use the **the pipe** operator `%>%` to create transformation chains from the gap
 
 Replace the _ _ _ with the values in the comments:
 
+```
 gapminder %>% 
   group_by(_ _ _ , _ _ _) %>% 
   summarise(m_pop = mean(_ _ _))
@@ -149,7 +154,7 @@ gapminder %>%
 gapminder %>% 
   group_by(_ _ _ , _ _ _) %>% 
   summarise(sd_pop = sd(_ _ _))
-
+```
 </codeblock>
 
 </exercise>
@@ -169,13 +174,14 @@ Use the pivot_longer() and pivot_wider() functions to reshape the data frame obj
 
 Replace the _ _ _ with the values in the comments:
 
+```
 gapminder_country <- gapminder %>% 
   select(_ _ _ , _ _ _ , _ _ _) %>% 
   pivot_wider(names_from = _ _ _ , values_from = _ _ _)
   
 gapminder_country %>% 
   pivot_longer(names_to = _ _ _ , values_to = _ _ _)
-
+```
 </codeblock>
 
 </exercise>

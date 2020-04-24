@@ -126,4 +126,16 @@ All text starting with the symbol `#` is not computed and used as a comment to g
 
 ---
 
+# Code Editor: R's Nervous System
+
+In the code editor, 3 keyboard shortcuts are essential:
+
+`Ctrl` + `Enter` (windows) or `Cmd` + `Return` (mac): Run the line where the cursor is
+
+`Alt` + `-` (windows) or `Option` + `-` (mac): Insert assignment arrow
+
+`Ctrl` + `Shift` + `M` (windows) or	`Cmd` + `Shift` + `M` (mac): Insert pipe operator
+
+---
+
 # Time to create an account with RStudio Cloud and to access to its interface.

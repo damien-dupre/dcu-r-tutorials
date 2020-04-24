@@ -3,7 +3,7 @@ title: 'Chapter 4: Hypothesis Testing and Linear Regression'
 description:
   'This chapter introduces the basics concepts of hypothesis formulation and testing with linear regression models.'
 prev: /chapter_03
-next: null
+next: /chapter_05
 type: chapter
 id: 4
 ---

@@ -226,7 +226,7 @@ papaja_model$table
 These outputs are particularly useful, specially in the case of a Rmarkdown report (introduced in next tutorials). By using these inputs directly in the text with an inline code chunk, the result of the analysis appears directly formatted.
 
 Here is a sentence as it can appear in a Rmarkdown document:
-```{r echo=TRUE, eval=FALSE}
+```
 "The hypothesis that there is a significant link between the predictor1 and the outcome variable is rejected (`r papaja_model$full_result$predictor1`)."
 ```
 ---

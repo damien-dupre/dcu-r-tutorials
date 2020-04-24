@@ -42,7 +42,7 @@ This cloud instance of RStudio has only 1 CPU (very low computation power) but i
 
 # RStudio Cloud
 
-<img src="https://mine-cetinkaya-rundel.github.io/rstudio-cloud-webinar/img/get-started.png" width="75%">
+<img src="img_05_01_01.png" width="75%">
 
 ---
 

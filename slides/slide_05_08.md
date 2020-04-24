@@ -22,7 +22,7 @@ Some packages are making this process even easier by providing templates and fun
 
 Developed and maintained by Frederik Aust & Marius Barth, {papaja} is a fantastic package to produce research manuscript whether you are like APA style or not.
 
-<img src="https://raw.githubusercontent.com/crsh/papaja/master/inst/images/template_selection.png" width="75%">
+<img src="img_05_08_01.png" width="75%">
 
 ---
 
@@ -42,7 +42,7 @@ remotes::install_github("crsh/papaja")
 
 After installing {papaja}, you can access a great research manuscript Rmarkdown template in the list of the template proposed (you need to reload the R session for it to appear). This template automatically generate a YAML producing the first page with title, author details, and abstract. The rest of the text written in the Rmarkdown produces a 2-spaced document which can be used as manuscript in many disciplines. 
 
-<img src="https://blog.efpsa.org/wp-content/uploads/2015/06/knitting.png" width="75%">
+<img src="img_05_08_02.png" width="75%">
 
 ---
 
@@ -70,7 +70,7 @@ install.packages("rticles")
 
 Once installed and the R session restarted, more than 25 templates (the number keeps increasing) to the most prestigious academic journal can be accessed.
 
-<img src="https://bookdown.org/yihui/rmarkdown/images/rticles-templates.png" width="75%">
+<img src="img_05_08_03.png" width="75%">
 
 ---
 

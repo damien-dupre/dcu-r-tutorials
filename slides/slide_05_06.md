@@ -95,7 +95,7 @@ Important: note that the hashtag # is used differently in Markdown and in R:
 
 When you open an .Rmd, you get a notebook interface where code and output are interleaved. These codes lines starting and finishing by ` ``` ` are called chunks. The curly brackets are designing the type of language, here `r` and the options to apply to this code chunk.
 
-<img src="https://smac-group.github.io/ds/images/rmd_code_chunk.png" width="75%">
+<img src="img_05_06_01.png" width="75%">
 
 ---
 

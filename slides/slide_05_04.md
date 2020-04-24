@@ -60,11 +60,11 @@ One of the most complicated but essential part is opening the data but RStudio I
 
 1. What you can do as a beginner: Open data with RStudio `Import Dataset` function.
 
-<img src="https://support.rstudio.com/hc/article_attachments/360017332434/Screen_Shot_2018-10-31_at_9.24.22_PM.png" width="25%">
+<img src="img_05_04_01.png" width="25%">
 
 Remember that .csv files are basically text files.
 
-<img src="https://support.rstudio.com/hc/article_attachments/360017332574/Screen_Shot_2018-10-31_at_9.39.02_PM.png" width="25%">
+<img src="img_05_04_02.png" width="25%">
 
 If you see your data in the preview, you can click `Import` to create an object containing your data. A code will be executed on the console, **Copy and Paste the first line of this code in your R script**. You will not have to do it manually once the code is in your script. 
 

@@ -12,7 +12,7 @@ RStudio Cloud is a hosted version of RStudio in the cloud (virtual machine on a 
 
 This cloud instance of RStudio has only 1 CPU (very low computation power) but it reproduces the exact same interface as the one you can open on your local computer without having to install R and RStudio.
 
-<img src="https://mine-cetinkaya-rundel.github.io/rstudio-cloud-webinar/img/get-started.png" width="75%">
+<img src="img_05_02_01.png" width="75%">
 
 ---
 
@@ -33,7 +33,7 @@ No need to provide your real information if you just want to practice in RStudio
 
 # Coding with RStudio Cloud
 
-<img src="https://mine-cetinkaya-rundel.github.io/rstudio-cloud-webinar/img/login.png" width="75%">
+<img src="img_05_02_02.png" width="75%">
 
 ---
 
@@ -41,7 +41,7 @@ No need to provide your real information if you just want to practice in RStudio
 
 Once signed in/logged in, you just need to create a new project in order to launch an RStudio session.
 
-<img src="https://mine-cetinkaya-rundel.github.io/rstudio-cloud-webinar/img/landing-1.png" width="75%">
+<img src="img_05_02_03.png" width="75%">
 
 ---
 
@@ -55,7 +55,7 @@ While you can do pretty much everything you want within base-R, you’ll find th
 
 When you open RStudio, you’ll see the following three windows (also called panes).
 
-<img src="https://ohi-science.org/data-science-training/img/RStudio_IDE.png" width="75%">
+<img src="img_05_02_04.png" width="75%">
 
 ---
 
@@ -65,7 +65,7 @@ The console is the heart of R. Here is where R actually evaluates code. At the b
 
 The different status of the R console were presented in the DCU R Tutorial 1, don't hesitate to have a second look at it.
 
-<img src="https://bookdown.org/ndphillips/YaRrr/images/consoless.png" width="75%">
+<img src="img_05_02_05.png" width="75%">
 
 ---
 
@@ -81,7 +81,7 @@ The Environment tab of this panel shows you the names of all the data objects (l
 
 You can also see information like the number of observations and rows in data objects. 
 
-<img src="https://bookdown.org/ndphillips/YaRrr/images/environmentss.png" width="75%">
+<img src="img_05_02_06.png" width="75%">
 
 ---
 
@@ -108,7 +108,7 @@ If the Console is the heart and the Environment the brain, the Code Editor pane 
 
 This pane is not active when you first enter in RStudio and requires the user to create a new file by clicking **File** > **New File** > **R Script**
 
-<img src="https://bookdown.org/animestina/R_Manchester/rstudio2.png" width="75%">
+<img src="img_05_02_07.png" width="75%">
 
 ---
 

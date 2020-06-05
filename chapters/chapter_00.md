@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 0: Getting started'
+title: 'Chapter 0: Getting Started'
 description:
   'This chapter is a quick introduction to how the tutorials work. It also builds your own interactive session which is essential to start.'
 prev: null

@@ -1,5 +1,5 @@
 ---
-title: 'Chapter 5: Coding R with RStudio and create academic outputs'
+title: 'Chapter 5: Coding R with RStudio to Create Academic Outputs'
 description:
   'This chapter introduces the basics of RStudio and RStudio Cloud to produce academic outputs with Rmarkdown files.'
 prev: /chapter_04

@@ -8,7 +8,7 @@ type: slides
 
 # Understanding regressions
 
-A linear regression model tests the linear relationship between two variables, let's say X and Y. Imagine the variable X as our Independent variable (or predictor) and the variable Y as our Dependent variable (or outcome). If X and Y are strongly related, the hypothesis that Y is influenced by X can be transcribed with the following equation:
+A linear regression model tests the linear relationship between two variables, let's say X and Y. Imagine the variable X as our Independent Variable (or Predictor) and the variable Y as our Dependent Variable (or Outcome). If X and Y are strongly related, the hypothesis that Y is influenced by X can be transcribed with the following equation:
 
 - Y = X
 
@@ -23,7 +23,7 @@ In reality this equation is a very special case of relationship in which the val
 In the equation Y = X, three coefficients are hidden because they are unused:
 
 - the intercept coefficient &beta;<sub>0</sub> corresponds to the value of Y when X is 0, which is 0 in our case.
-- the slope coefficient &beta;<sub>1</sub> corresponds to how much Y increase when X increase of 1, which is 1 in our case (e.g., when X is 3, Y is 1 x 3).
+- the slope coefficient &beta;<sub>1</sub> corresponds to how much Y increases when X increases by 1 unit. For example in our case, when  X increases from 2 to 3, that is 1 unit, Y increases from 2 to 3 as well (when X increase by 1 unit, Y increases by 1). Consequently, the slope codefficient is 1 in this example. 
 - the error coefficient &epsilon; corresponds to how far from the prediction line the values of Y are, which is 0 in our case because all the values are aligned.
 
 So in general, the relation between a predictor and an outcome can be written as:
@@ -48,7 +48,7 @@ It’s important to understand that a fitted model is just the closest model fro
 
 # Applied Example
 
-Imagine the following case study: The CEO of the D&D company has problems with his employee well-being and wants to investigate the relationship between Job Satisfaction, Salary and Performance. Therefore the CEO formulate 3 hypotheses:
+Imagine the following case study: The CEO of the D&D company has problems with his employee well-being and wants to investigate the relationship between Job Satisfaction, Salary and Performance. Therefore, the CEO formulates 3 hypotheses:
 
 - the higher employees' Salary is, the higher their Job Satisfaction (main effect)
 - the higher employees' Performance is, the higher their Job  Satisfaction (main effect)
@@ -56,7 +56,7 @@ Imagine the following case study: The CEO of the D&D company has problems with h
 
 The business analyst at D&D is making the following hypothesis:
 
-> Because salary has an effect of employees' job satisfaction, I predict that the higher salaries are the higher employees' job satisfaction.
+> Because salary has an effect of employees' job satisfaction, I predict that the higher salaries are the higher the employees' job satisfaction.
 
 ---
 
@@ -90,7 +90,7 @@ This distance is just the difference between the y value given by the model (the
 
 <img src="img_04_04_04.png" width="25%">
 
-One common way to do this in statistics to use the “root-mean-squared deviation” or RMSE. We compute the difference between actual and predicted, square them, average them, and the take the square root. This distance has lots of appealing mathematical properties, which we’re not going to talk about here. You’ll just have to take my word for it!
+One common way to do this in statistics to use the “root-mean-squared deviation” or RMSE. We compute the difference between actual and predicted, square them, average them, and then take the square root. This distance has lots of appealing mathematical properties, which we’re not going to talk about here. You’ll just have to take my word for it!
 
 ---
 
@@ -100,7 +100,7 @@ As previously indicated, you will not have to calculate all the possible lines i
 
 The `lm()` function has only two arguments that you should care about: `formula` and `data`. 
 
-- `formula` is the formulation of the model tested which take the form of the outcome variable name followed by `~` and by predictor variables' name separated by `+`.
+- `formula` is the formulation of the model tested which takes the form of the outcome variable name followed by `~` and by predictor variables' name separated by `+`.
 
 - `data` is the name of the data frame object containing the variables.
 
@@ -108,11 +108,11 @@ The `lm()` function has only two arguments that you should care about: `formula`
 
 # Main effect test in R formulas
 
-To test a main effect, the formula just need to include the name of the variable used as predictor:
+To test a main effect, the formula just needs to include the name of the variable used as predictor:
 
 - `outcome ~ predictor` 
 
-If more than one main effect is expected, the model includes this additional predictors with the symbol `+`:
+If more than one main effect is expected, the model includes this additional predictor with the symbol `+`:
 
 - `outcome ~ predictor1 + predictor2`
 
@@ -124,7 +124,7 @@ To test an interaction effect between two predictors (or more) on an outcome var
 
 - `outcome ~ predictor1:predictor2`
 
-To test a full model (i.e which contains all possible main effects and all possible interaction effects), the predictors can be separated by the symbol `*`.
+To test a full model (i.e., which contains all possible main effects and all possible interaction effects), the predictors can be separated by the symbol `*`.
 
 Here is a full model with 2 predictors and therefore 3 hypotheses (2 main effects and 1 interaction effect):
 
@@ -140,7 +140,7 @@ Here is a full model with 3 predictors and therefore 7 hypotheses (3 main effect
 
 # Summary of formulas definitions
 
-It is essential to understand that the formula of the model tested must includes all the effects corresponding to an explicit hypothesis and only the effects corresponding to an explicit hypothesis.
+It is essential to understand that the formula of the model tested must include all the effects corresponding to an explicit hypothesis and only the effects corresponding to an explicit hypothesis.
 
 Main effect hypotheses are tested in the model formula just by adding the predictor variable names with `+`. Interaction effect hypotheses are tested in the model formula just by indicating the interacting predictor variable names with `:`.
 

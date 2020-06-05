@@ -91,7 +91,7 @@ Because R can automatically convert type of vectors when manipulating a data fra
 str(leinster_df)
 ```
 
-`str()` displays a summary of your object. If everything is going well we have a "data.frame" type object with 12 observations (rows) and 3 variables (columns). You can see that, as expected, size and population have the class "num" for numeric. However the variable name is not a class "character" but "factor". A "factor" is a vector made of character string which are ordered according specific level (here the alphabetical level). Whereas vectors of characters and factors are very similar, certain functions are only using one type or the other.
+`str()` displays a summary of your object. If everything is going well we have a "data.frame" type object with 12 observations (rows) and 3 variables (columns). You can see that, as expected, size and population have the class "num" for numeric. However the variable name is not a class "character" but "factor". A "factor" is a vector made of character strings which are ordered according specific level (here the alphabetical level). Whereas vectors of characters and factors are very similar, certain functions are only using one type or the other.
 
 ---
 

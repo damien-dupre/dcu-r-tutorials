@@ -8,9 +8,9 @@ type: slides
 
 # Introduction
 
-The goal this tutorial is to provide a simple introduction to hypothesis testing with linear regression models for beginner. In the context of this tutorial non-linear model will not be presented. 
+The goal this tutorial is to provide a simple introduction to hypothesis testing with linear regression models for beginners. In the context of this tutorial, Bayesian or non-linear models will not be presented. 
 
-This introduction is also limited to the most common linear regressions models which suppose a Gaussian distribution of the residuals and which does not include random effects. 
+This introduction is also limited to the most common linear regression models which suppose a Gaussian distribution of the residuals and which do not include random effects. 
 
 We are going to use models to partition data into patterns and residuals. Strong patterns will hide subtler trends, so we’ll use models to help peel back layers of structure as we explore a dataset.
 ---
@@ -29,7 +29,7 @@ Let’s load all the packages needed for this tutorial (this assumes you’ve al
 
 # References
 
-Once again, this tutorial uses contents and examples from the following free online books. They are perfect for beginners, feel free to check them out for further information:
+Once again, this tutorial uses content and examples from the following free online books. They are perfect for beginners, feel free to check them out for further information:
 
 - [R for Data Science](https://r4ds.had.co.nz/) by Wickham and Grolemund (2017)
 - [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/) by Phillips (2018)

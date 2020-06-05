@@ -8,29 +8,29 @@ type: slides
 
 # Reading regressions
 
-Now R has calculated the model, the hardest part of analysis is done. Indeed the most important is to test THE model which corresponds to all your hypotheses. Now, the trick is to learn about the mean of the vocabulary used in linear regression's output to understand their results.
+Now R has calculated the model, the hardest part of the analysis is done. Indeed the most important matter is to test the model which corresponds to all your hypotheses. Now, the trick is to learn about the mean of the vocabulary used in linear regression's output to understand their results.
 
 ---
 
 # Vocabulary
 
-Here many concepts and letters will be introduced in a short presentation here but I encourage you to read more about them in the references presented in the introduction section.
+Here, many concepts and letters will be introduced in a short presentation, but I encourage you to read more about them in the references presented in the introduction section.
 
 ---
 
 # R and R<sup>2</sup>
 
-R the overall correlation of your model and R<sup>2</sup> is the % of variance of the variable X explained by the model. The following visualisation presents [the relationship between correlation and variance explained](https://rpsychologist.com/d3/correlation/).
+R is the letter used to describe the overall correlation of your model and R<sup>2</sup> is the % of variance of the variable X explained by the model. The following visualisation presents [the relationship between correlation and variance explained](https://rpsychologist.com/d3/correlation/).
 
-R denote the overall correlation while all the predictors are taken into account whereas r is the correlation associated to only one predictor.
+The letter R denotes the overall correlation when all the predictors are taken into account whereas *r* is the correlation associated to only one predictor.
 
 ---
 
-# Estimates, Standardized estimates and associated Standard Errors
+# Estimates, Standardised estimates and associated Standard Errors
 
-Estimates indicate the value of b which is the raw (non-standardized version of &beta;). For the intercept, the estimate corresponds to the value of the outcome variable when the predictor variable is null. For a predictor variable, the estimate corresponds to how much the outcome variable when this predictor increase by one.
+Estimates indicate the value of b which is the raw (non-standardised version of &beta;). For the intercept, the estimate corresponds to the value of the outcome variable when the predictor variable is null. For a predictor variable, the estimate corresponds to how much the outcome variable increases or decreases when this predictor increases by one.
 
-In the case of multiple predictors with different units/scales/ranges, the estimate being calculated according the unit/scale/range of each predictor, can not been compared between the predictors. To compare the strength of the link between each predictor and the outcome variable, standardized estimates are necessary. This standardised estimates also known as &beta; are also the correlation r for each predictor with the outcome variable.
+In the case of multiple predictors with different units/scales/ranges, the estimate being calculated according to the unit/scale/range of each predictor, can not be compared between the predictors. To compare the strength of the link between each predictor and the outcome variable, standardised estimates are necessary. This standardised estimates also known as &beta; are also the correlation r for each predictor with the outcome variable.
 
 Because the best fit of the model is calculated on a pool of multiple best fit attempts, a confidence margin also know as SE for standard error can be provided.
 
@@ -44,9 +44,9 @@ Hypothesis testing on linear regression models is built on the “Student t-test
 
 # p-value and degree of freedom
 
-The p-value is the most important value because it will be used to take a decision on whether to accept or to reject H<sub>0</sub> (and consequently to consider H<sub>A</sub> as potentially true). According Fisher, the p-value is the probability that we would have observed a test statistic that is at least as extreme as the one we actually did get if the null hypothesis is true. In other words, if the data are extremely implausible according to the null hypothesis, then the null hypothesis is probably wrong.
+The p-value is the most important value because it will be used to take a decision on whether to accept or to reject H<sub>0</sub> (and consequently to consider H<sub>A</sub> as potentially true). According to Ronald Fisher, the p-value is the probability that we would have observed a test statistic that is at least as extreme as the one we actually did get if the null hypothesis is true. In other words, if the data are extremely implausible according to the null hypothesis, then the null hypothesis is probably wrong.
 
-The p-value is a probability ranging from 0% to 100% and the threshold to say that the data obtained are extremely implausible is 5% (or 0.05 in a p-value scale). Every results obtained with a p-value lower than 5% or 0.05 is considered as implausible if the null hypothesis is true, and lead to the rejection of this null hypothesis.
+The p-value is a probability ranging from 0% to 100% and the threshold to say that the data obtained are extremely implausible is 5% (or 0.05 in a p-value scale). Every result obtained with a p-value lower than 5% or 0.05 is considered as implausible if the null hypothesis is true, and leads to the rejection of this null hypothesis.
 
 The degrees of freedom (df) corresponds to the number of unique “data points” that contribute to a particular calculation, minus the number of “constraints” that they need to satisfy. Running a statistical model will remove all the freedom to preform new analyses with different models. For this reason, all the hypotheses should be tested once, and only once, in the same unique model.
 
@@ -133,13 +133,13 @@ So in this case, the model did not perform significantly better than you’d exp
 
 # Reporting clean results
 
-Whereas being the most used output to linear regression models to read the data, the output of the `summary()` function are not the cleanest ever. Thankfully, many additional packages are providing alternative functions to read linear regression models. Because there are too many packages, I will focus only on two additional packages: {broom} and {papaja}.
+While it is the most used output to read the data in linear regression models, the output of the `summary()` function is not the cleanest ever. Thankfully, many additional packages are providing alternative functions to read linear regression models. Because there are too many packages, I will focus only on two additional packages: {broom} and {papaja}.
 
 ---
 
 # Clean lm() with {broom}
 
-The {broom} package was created exactly for the purpose of cleaning output of the `lm()` function (https://cran.r-project.org/web/packages/broom/vignettes/broom.html).
+The {broom} package was created precisely for the purpose of cleaning output of the `lm()` function (https://cran.r-project.org/web/packages/broom/vignettes/broom.html).
 
 ```
 #install.packages("broom")
@@ -176,7 +176,7 @@ install.packages("remotes")
 remotes::install_github("crsh/papaja")
 ```
 
-{papaja} is a package providing support and template of Research publications using the APA style (https://crsh.github.io/papaja_man/). The APA style is not only for references citation styling but also for all the publications' content including linear regression outputs. For this purpose, {papaja} has one main function call `apa_print()` which is formatting the output of linear regressions.
+{papaja} is a package providing support and templates of Research publications using the APA style (https://crsh.github.io/papaja_man/). The APA style is not only for references citation styling but also for all the publications' content including linear regression outputs. For this purpose, {papaja} has one main function called `apa_print()` which is formatting the output of linear regressions.
 
 ```
 library(papaja)
@@ -212,7 +212,7 @@ papaja_model$full_result
 
 ```
 
-4. table: summarise all results including statistical test in a table
+4. table: summarises all results including statistical test in a table
 
 ```{r echo=TRUE}
 papaja_model$table
@@ -223,7 +223,7 @@ papaja_model$table
 
 # Clean lm() with {papaja}
 
-These outputs are particularly useful, specially in the case of a Rmarkdown report (introduced in next tutorials). By using these inputs directly in the text with an inline code chunk, the result of the analysis appears directly formatted.
+These outputs are particularly useful, especially in the case of a Rmarkdown report (introduced in future tutorials). By using these inputs directly in the text with an inline code chunk, the result of the analysis appears directly formatted.
 
 Here is a sentence as it can appear in a Rmarkdown document:
 ```
@@ -239,7 +239,7 @@ Now all the basics of hypothesis testing have been introduced, it is times to go
 
 # Analyst 1
 
-Analyst 1's hypothesis was that **job satisfaction is influenced by employee's salary**. In order to test this hypothesis, Analyst 1 tests the following mathematical model: 
+Analyst 1's hypothesis was that **job satisfaction is influenced by employee salary**. In order to test this hypothesis, Analyst 1 tests the following mathematical model: 
 
 job satisfaction = &beta;<sub>0</sub> + &beta;<sub>1</sub> salary + &epsilon;
 
@@ -266,7 +266,7 @@ The link between salary and job satisfaction is significantly different than 0 (
 
 # Analyst 2
 
-Analyst 2's hypothesis was that **job satisfaction is influenced by employee's performance**. In order to test this hypothesis, Analyst 2 tests the following mathematical model: 
+Analyst 2's hypothesis was that **job satisfaction is influenced by employee performance**. In order to test this hypothesis, Analyst 2 tests the following mathematical model: 
 
 job satisfaction = &beta;<sub>0</sub> + &beta;<sub>1</sub> performance + &epsilon;
 
@@ -293,7 +293,7 @@ The link between performance and job satisfaction is not significantly different
 
 # Analyst 3
 
-Analyst 3's hypotheses were that **job satisfaction is influenced by employee's salary** and that **job satisfaction is also influenced by employee's performance**. In order to test these hypotheses, Analyst 3 tests the following mathematical model: 
+Analyst 3's hypotheses were that **job satisfaction is influenced by employee salary** and that **job satisfaction is also influenced by employee performance**. In order to test these hypotheses, Analyst 3 tests the following mathematical model: 
 
 job satisfaction = &beta;<sub>0</sub> + &beta;<sub>1</sub> salary + &beta;<sub>2</sub> performance + &epsilon;
 
@@ -320,7 +320,7 @@ The link between salary and job satisfaction is significantly different than 0 (
 
 # Analyst 4
 
-Analyst 4's hypotheses were that **job satisfaction is influenced by employee's salary**, that **job satisfaction is also influenced by employee's performance**, and that **the influence of employee's salary on job satisfaction is different according employee's performance**. In order to test these hypotheses, Analyst 4 tests the following mathematical model: 
+Analyst 4's hypotheses were that **job satisfaction is influenced by employee salary**, that **job satisfaction is also influenced by employee performance**, and that **the influence of employee salary on job satisfaction is different according employee performance**. In order to test these hypotheses, Analyst 4 tests the following mathematical model: 
 
 job satisfaction = &beta;<sub>0</sub> + &beta;<sub>1</sub> salary + &beta;<sub>2</sub> performance + &beta;<sub>3</sub> salary * performance + &epsilon;
 

@@ -65,7 +65,7 @@ my_vector
 
 ---
 
-# Math with vectors
+# Maths with vectors
 
 You can apply mathematical operations to the elements of a vector just as you would with a single number:
 
@@ -81,7 +81,7 @@ my_vector_times_ten
 
 ---
 
-# Math with vectors
+# Maths with vectors
 
 You can also apply mathematical operations on pairs of vectors. In this case, each matching element is used for the operation.
 
@@ -97,7 +97,7 @@ my_first_vector + my_second_vector
 
 ---
 
-# Math with vectors
+# Maths with vectors
 
 We can also apply logical operations across vectors; again, this will return a vector with the operation applied to the pairs of values at each position.
 
@@ -112,7 +112,7 @@ vector_a == vector_b
 
 ---
 
-# Math with vectors
+# Maths with vectors
 
 Most functions will work with vectors just as they would with a single number. For example, let’s say we wanted to obtain the trigonometric sine for each of a set of values. We could create a vector and pass it to the `sin()` function, which will return as many sine values as there are input values:
 
@@ -127,9 +127,9 @@ my_sin_values
 ```
 ---
 
-# Math with vectors
+# Maths with vectors
 
-Importantly, vectors can be made of numeric values but they can also be made of characters string between quotation marks (e.g., `"hello world"`), boolean such as `TRUE` or `FALSE`, or any kind of objects even multiple vectors. The only requirement is to respect the same type of object inside a vector.
+Importantly, vectors can be made of numeric values but they can also be made of character strings between quotation marks (e.g., `"hello world"`), boolean such as `TRUE` or `FALSE`, or any kind of objects even multiple vectors. The only requirement is to respect the same type of object inside a vector.
 
 In the following example, we subset the 2nd value of the vector `leinster_county`:
 
@@ -144,9 +144,9 @@ leinster_county[2]
 ```
 ---
 
-# Math with vectors
+# Maths with vectors
 
-However, functions applied to vectors have specific requirement regarding the type of elements in the vector. 
+However, functions applied to vectors have specific requirements regarding the type of elements in the vector. 
 
 For instance, using function `sin()`, which expects numeric values, with the `leinster_county` object made of character strings, will generate the following error:
 
@@ -159,4 +159,4 @@ Error in sin(leinster_county) : non-numeric argument to mathematical function
 ```
 ---
 
-# Now, time to practice without errors hopefully...
+# Now, time to practise without errors hopefully...

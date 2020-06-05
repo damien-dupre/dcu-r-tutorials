@@ -23,7 +23,7 @@ This tutorial uses contents and examples from the following free online books. T
 - [Introduction to Open Data Science](https://ohi-science.org/data-science-training/) by the Ocean Health Index Team (2019)
 - [Statistical Thinking for the 21st Century](https://statsthinking21.org/) by Poldrack (2020)
 
-Notes: R is free and has an amazing community of people who, like me, are giving their time to teach R. I would like to thank them and I am grateful to them for using their content.
+Notes: R is free and has an amazing community of people who, like me, are giving their time to teach R. I would like to thank them and I am grateful to them for making their content available.
 
 As a consequence, this work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 

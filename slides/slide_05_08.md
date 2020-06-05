@@ -40,7 +40,7 @@ remotes::install_github("crsh/papaja")
 
 # {papaja}: Reproducible APA manuscripts
 
-After installing {papaja}, you can access a great research manuscript Rmarkdown template in the list of the template proposed (you need to reload the R session for it to appear). This template automatically generate a YAML producing the first page with title, author details, and abstract. The rest of the text written in the Rmarkdown produces a 2-spaced document which can be used as manuscript in many disciplines. 
+After installing {papaja}, you can access a great research manuscript Rmarkdown template in the list of the template proposed (you need to reload the R session for it to appear). This template automatically generates a YAML producing the first page with title, author details, and abstract. The rest of the text written in the Rmarkdown produces a 2-spaced document which can be used as a manuscript in many disciplines. 
 
 <img src="img_05_08_02.png" width="75%">
 
@@ -52,7 +52,7 @@ Similarly as default Rmarkdown, the default APA Rmarkdown template comes with a 
 
 There is also the possibility to insert references in a bibtex format, and to select the style that you prefer.
 
-Finally, the {papaja} package comes with many great functions such as `apa_print()` that has been presented in the Tutorial 4 to present linear models outputs automatically.
+Finally, the {papaja} package comes with many great functions such as `apa_print()` that have been presented in Tutorial 4 to present linear models outputs automatically.
 
 ---
 

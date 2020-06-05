@@ -10,7 +10,7 @@ type: slides
 
 Another point of confusion with many new R users is the idea of an R package. R packages extend the functionality of R by providing additional functions, data, and documentation. They are written by a worldwide community of R users and can be downloaded for free from the internet.
 
-A good analogy for **R packages are like apps you can download onto a mobile phone**.
+A good analogy for **R packages is that they are like apps you can download onto a mobile phone**.
 
 ---
 

@@ -6,11 +6,11 @@ type: slides
 
 ---
 
-# What are R and RStudio?
+# What is R and RStudio?
 
 R is a real programming language and has become one of the most popular programming languages for statistical analysis and “data science”. Unlike general-purpose programming languages such as Python or Java, R is purpose-built for statistics. That doesn’t mean that you can’t do more general things with it, but the place where it really shines is in data analysis and statistics.
 
-R is usually used via RStudio and first time users often confuse the two. At its simplest, **R is like a car’s engine** while **RStudio is like a car’s dashboard**.
+R is usually used via RStudio and first-time users often confuse the two. At its simplest, **R is like a car’s engine** while **RStudio is like a car’s dashboard**.
 
 R: The engine |  RStudio: The dashboard 
 :------------:|:------------------------:
@@ -20,9 +20,9 @@ R: The engine |  RStudio: The dashboard
 
 More precisely, R is a programming language that runs computations, while RStudio is an integrated development environment (IDE) that provides an interface by adding many convenient features and tools. 
 
-So just as the way of having access to a speedometer, rear-view mirrors, and a navigation system makes driving much easier, using RStudio’s interface makes using R much easier as well.
+So just as having access to a speedometer, rear-view mirrors, and a navigation system makes driving much easier, using RStudio’s interface makes using R much easier as well.
 
-**For now, we are going to use R via a server not with RStudio but the presentation of RStudio and how to use RStudio will be introduced at the end of this tutorial.**
+**For now, we are going to use R via a server, not with RStudio. However, RStudio will be presented and explained at the end of these tutorials.**
 
 ---
 
@@ -30,7 +30,7 @@ So just as the way of having access to a speedometer, rear-view mirrors, and a n
 
 While it is not required to be an expert computer programmer to use R, there is still a set of basic programming concepts that new R users need to understand.
 
-To help you learn, we will always use a different font to distinguish regular text from `computer_code`. The best way to master these topics is through deliberate practice with R and lots of repetition.
+To help you learn, we will always use a different font to distinguish regular text from `computer_code`. The best way to master these topics is through practice with R and lots of repetition.
 
 One thing that intimidates new R and RStudio users is how it reports **errors**, **warnings**, and **messages**. R reports errors, warnings, and messages in a glaring red font, which makes it seem like it is scolding you. However, seeing red text in the console is not always bad.
 

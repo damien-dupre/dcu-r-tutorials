@@ -13,7 +13,7 @@ Now you have mastered the basics of coding with R, including R's grammar, syntax
 
 In the previous tutorials, the R language was setup for you in the exercises sections to practice R quickly and easily. It is now time to setup your own environment!
 
-Because this is a very scary step which involves to first download and install R on your computer, then to download and install RStudio on your computer, I will suggest you to start easy with an environment already installed with R and RStudio called RStudio Cloud.
+Because this is a very scary step which involves to first download and install R on your computer, then to download and install RStudio on your computer, I will suggest to you to start with the basics, with an environment already installed with R and RStudio called RStudio Cloud.
 
 ---
 

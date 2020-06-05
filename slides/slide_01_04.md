@@ -19,7 +19,7 @@ Let’s review some basics we’ve so far omitted in the interests of getting yo
 
 ---
 
-You can run the following code if you paste it in a R console and hitting the **Ctrl+Enter** (Windows) or **Cmd+Enter** (Mac) keys.
+You can run the following code if you paste it in a R console and hit the **Ctrl+Enter** (Windows) or **Cmd+Enter** (Mac) keys.
 
 ```r
 1 / 200 * 30
@@ -43,7 +43,7 @@ R spits out the answer to whatever you type in, as long as it can figure it out.
 
 # Logical operations
 
-Another kind of object is known as a logical object, because it is based on the idea from logic that a statement can be either true or false. In R, these are capitalized (`TRUE` and `FALSE`).
+Another kind of object is known as a logical object, because it is based on the idea from logic that a statement can be either true or false. In R, these are capitalised (`TRUE` and `FALSE`).
 
 To determine whether a statement is true or not, we use logical operators. 
 
@@ -56,7 +56,7 @@ To determine whether a statement is true or not, we use logical operators.
 
 ---
 
-You are already familiar with some of these, like the higher-than (`>`) and lower-than (`<`) operators. Run the following code or hit the **Ctrl+Enter** keys (Windows) or **Cmd+Enter** (Mac) inside the code box.
+You are already familiar with some of these, like the greater-than (`>`) and lower-than (`<`) operators. Run the following code or hit the **Ctrl+Enter** keys (Windows) or **Cmd+Enter** (Mac) inside the code box.
 
 ```r
 1 < 3
@@ -88,7 +88,7 @@ Often we want to know whether two numbers are equal or not equal to one another.
 
 # Missing values
 
-One important feature of R that can make comparison tricky are missing values, or `NA`s (“not available”). `NA` represents an unknown value so missing values are “contagious”: almost any operation involving an unknown value will also be unknown.
+One important feature of R that can make comparison tricky is missing values, or `NA`s (“not available”). `NA` represents an unknown value so missing values are “contagious”: almost any operation involving an unknown value will also be unknown.
 
 ```r
 NA > 5
@@ -236,7 +236,7 @@ There’s an implied contract between you and R: it will do the tedious computat
 
 # Calling functions
 
-R has a large collection of built-in functions that are called like this:
+R has a large collection of built-in functions that are named as follows:
 
 ```r
 function_name(arg1 = val1, arg2 = val2, ...)

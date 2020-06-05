@@ -29,7 +29,7 @@ Importantly, Column/Variable names are not between quotation marks in the Tidyve
 
 The reason is because the Column/Variable is an object containing multiple values inside the data frame object.
 
-At the contrary, the string "Ireland" does not exist in our environment and will not be saved. It is here just as a value, which explain the quotation marks.
+At the contrary, the string "Ireland" does not exist in our environment and will not be saved. It is here just as a value, which explains the quotation marks.
 
 ---
 

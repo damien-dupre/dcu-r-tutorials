@@ -20,7 +20,7 @@ If you combine tidy thinking with the tidyverse packages, you will inevitably be
 
 Code written in the tidyverse style is much easier to read, and is more consistent than base R (e.g. the first argument of almost every tidyverse function is the data frame on which it acts, which allows us to make heavy use of something called “piping”). Base R, on the other hand, has a somewhat inconsistent mish-mash of function and argument styles.
 
-The people that make up the tidyverse community are amazing. Much of the initial efforts of the tidyverse creator: Hadley Wickham, but these days there are a huge number of people who contribute to, maintain, and develop the tidyverse. The tidyverse is open-source and collaborative (which means that you - yes you - could contribute to it if you wanted to), and is hosted on the tidyverse github: https://github.com/tidyverse.
+The people that make up the tidyverse community are amazing. Much of the initial efforts stem from the tidyverse creator: Hadley Wickham, but these days there are a huge number of people who contribute to, maintain, and develop the tidyverse. The tidyverse is open-source and collaborative (which means that you - yes you - could contribute to it if you wanted to), and is hosted on the tidyverse github: https://github.com/tidyverse.
 
 <img src="https://tidyverse.tidyverse.org/articles/tidyverse-logo.png?raw=true" width="30%">
 
@@ -28,7 +28,7 @@ The people that make up the tidyverse community are amazing. Much of the initial
 
 # Entering the tidyverse
 
-The goal of this tutorial is to summarise the overall goals of the tidyverse and to provide short introduction on each of the packages for data transformation.
+The goal of this tutorial is to summarise the overall goals of the tidyverse and to provide a short introduction on each of the packages for data transformation.
 
 It is important to remember that the tidyverse is constantly evolving. The best ways to keep up to date with the evolving tidyverse ecosystem is (1) to follow the RStudio blog (https://blog.rstudio.com/), and (2) start following R people on twitter. Mara Averick (@dataandme) and Hadley Wickham (@hadleywickham) are good people to follow.
 

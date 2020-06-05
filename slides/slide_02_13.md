@@ -64,7 +64,7 @@ gapminder_longer <- gapminder_wider %>%
 <img src="img_02_13_02.png" width="75%">
 
 
-For `pivot_longer()` the new variable are in quotation marks because they are not present in the existing `gapminder_wider` table whereas `country` is and has no quotation mark.
+For `pivot_longer()` the new variables are in quotation marks because they are not present in the existing `gapminder_wider` table whereas `country` is and has no quotation mark.
 
 ---
 

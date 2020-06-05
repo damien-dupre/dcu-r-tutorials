@@ -22,7 +22,7 @@ mutate(gapminder, gdp_total = pop * gdpPercap)
 
 # Useful creation functions
 
-`mutate()` always adds new columns at the end of your dataset so we’ll start by creating a narrower dataset so we can see the new variables. `mutate()` can also create multiple columns in the same statement, they just have to be separated by a coma `,`.
+`mutate()` always adds new columns at the end of your dataset so we’ll start by creating a narrower dataset so we can see the new variables. `mutate()` can also create multiple columns in the same statement, they just have to be separated by a comma `,`.
 
 There are many functions for creating new variables that you can use with `mutate()`. The key property is that the function must be vectorised: it must take a vector of values as input, return a vector with the same number of values as output. 
 
@@ -50,7 +50,7 @@ There’s no way to list every possible function that you might use, but here’
 
 - Billions of other functions.
 
-Base R, as well as the pre-installed R packages and all the others that you can download from CRAN, github or anywhere else, have an uncountable number of functions that can be used. You can even create your own function, which is usually very helpful.
+Base R, as well as the pre-installed R packages and all the others that you can download from CRAN, github or anywhere else, have an immense range of functions that can be used. You can even create your own function, which is usually very helpful.
 
 ---
 

@@ -10,7 +10,7 @@ type: slides
 
 A very powerful way to create figures in R is to use a ggplot at the end of a data transformation pipe.
 
-Indeed, having a data frame object as first argument of the `ggplot()` function is similar as using a pipe operator and to chain it to the `ggplot()` function:
+Indeed, having a data frame object as first argument of the `ggplot()` function is similar to using a pipe operator and chaining it to the `ggplot()` function:
 
 ```r
 # this classic representation:
@@ -25,7 +25,7 @@ gapminder %>%
 
 The layers are still added with the `+` symbol.
 
-In this last code, nothing prevent use to modify the data frame using `filter()`, `select()`, `mutate()`, and `summarise()`.
+In this last code, it is also possible to modify the data frame using `filter()`, `select()`, `mutate()`, and `summarise()`.
 
 ---
 
@@ -40,7 +40,7 @@ gapminder %>%
   geom_line()
 ```
 
-In the same what it is possible to include more than one filter:
+In the same way, it is possible to include more than one filter:
 
 ```r
 gapminder %>% 
@@ -73,9 +73,9 @@ gapminder %>%
 
 # Summary to ggplot()
 
-Finally, one of the most useful possibility will be to summarise variables per groups and to display these informations in figures.
+Finally, one of the most useful possibilities will be to summarise variables per groups and to display this information in figures.
 
-For example, let's create the average population per continent and display how this average evolve with the time:
+For example, let's create the average population per continent and display how this average evolves with time:
 
 ```r
 gapminder %>% 

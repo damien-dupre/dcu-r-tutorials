@@ -10,7 +10,7 @@ type: slides
 
 Rmarkdown files are the best way to automatically create a data analytic report such as academic papers, PhD and master dissertation or company's white papers.
 
-Rmarkdown files output are neat, fully reproducible and display all the power of R packages. These output can have different format:
+Rmarkdown files output is neat, fully reproducible and display all the power of R packages. These output can have different format:
 
 - .doc open as Microsoft Word working document
 - .pdf as LaTex formatted academic manuscript
@@ -28,7 +28,7 @@ To open a Rmarkdown file, use File > New File > RMarkdown… > Document of outpu
 
 # R Markdown
 
-Even Rmarkdown file is created with a default content. A good advice would be to click on the `knit` button, which is producing the output document, in order to check that everything is ok form the start.
+Even a Rmarkdown file is created with a default content. A good piece of advice would be to click on the `knit` button, which is producing the output document, in order to check that everything is ok from the start.
 
 For example, to create a pdf output, a LaTex processor must be installed before producing any output. There are many LaTex processors available but `tinytex` can be installed directly from RStudio with the {tinytex} package and is recommended.
 
@@ -54,7 +54,7 @@ It contains three important types of content:
 
 # 1. The YAML
 
-The top part of the file is called the YAML header. YAML is a recursive acronym that stands for “YAML Ain’t Markup Language”. It start and end with `---` and just define the main parameters of your documents such as title and output type.
+The top part of the file is called the YAML header. YAML is a recursive acronym that stands for “YAML Ain’t Markup Language”. It starts and ends with `---` and just defines the main parameters of your documents such as title and output type.
 
 ```
 ---
@@ -103,7 +103,7 @@ When you open an .Rmd, you get a notebook interface where code and output are in
 
 You can run each code chunk by clicking the Run icon (it looks like a play button at the top of the chunk), or by pressing Cmd/Ctrl + Shift + Enter. RStudio executes the code and displays the results inline with the code.
 
-When the output document is requested by clicking on the `knit` button, all the chunks are evaluated one after the other and keeps the objects previously stored and libraries loaded in the precedent chunks. For this reason, the first chunk is called `setup` chunk because it contains all the libraries to use and create object from datasets to be processed. 
+When the output document is requested by clicking on the `knit` button, all the chunks are evaluated one after the other, and it keeps the objects previously stored and libraries loaded in the precedent chunks. For this reason, the first chunk is called `setup` chunk because it contains all the libraries to use and create objects from datasets to be processed. 
 
 ---
 

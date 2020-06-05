@@ -63,7 +63,7 @@ When you open RStudio, you’ll see the following three windows (also called pan
 
 The console is the heart of R. Here is where R actually evaluates code. At the beginning of the console you’ll see the character `>`. This is a prompt that tells you that R is ready for new code. You can type code directly into the console after the prompt and get an immediate response. For example, if you type `1+1` into the console and press enter, you’ll see that R immediately gives an output of 2.
 
-The different status of the R console were presented in the DCU R Tutorial 1, don't hesitate to have a second look at it.
+The different statuses of the R console were presented in the DCU R Tutorial 1, don't hesitate to have a second look at it.
 
 <img src="img_05_02_05.png" width="75%">
 
@@ -71,7 +71,7 @@ The different status of the R console were presented in the DCU R Tutorial 1, do
 
 # Console: R’s Heart
 
-You can execute code by typing it directly into the Console. However, if you type code into the console, it won’t be saved. And if you make a mistake in typing code into the console, you’d have to re-type everything all over again. Instead, it’s better to write all your code in a document called the Code Editor and presented here after.
+You can execute code by typing it directly into the Console. However, if you type code into the console, it won’t be saved. And if you make a mistake in typing code into the console, you’d have to re-type everything all over again. Instead, it’s better to write all your code in a document called the Code Editor, presented here after.
 
 ---
 
@@ -93,7 +93,7 @@ The **Plots** panel (no big surprise), shows all your plots. There are buttons f
 
 The **Packages** shows a list of all the R packages installed on the local or remote machine and indicates whether or not they are currently loaded.
 
-With the **Help** menu for R functions you can access to essential information to use them. Just have a look at some of them by typing `?` followed by the function name such as:
+With the **Help** menu for R functions you can access essential information to use them. Just have a look at some of them by typing `?` followed by the function name such as:
 
 ```
 ?lm
@@ -104,9 +104,9 @@ With the **Help** menu for R functions you can access to essential information t
 
 # Code Editor: R's Nervous System
 
-If the Console is the heart and the Environment the brain, the Code Editor pane is definitely the nervous system. It makes the link between all the previous pane and allows the reproduce actions and behaviours.
+If the Console is the heart and the Environment the brain, the Code Editor pane is definitely the nervous system. It makes the link between all the previous panes and allows the reproduction of actions and behaviours.
 
-This pane is not active when you first enter in RStudio and requires the user to create a new file by clicking **File** > **New File** > **R Script**
+This pane is not active when you first enter RStudio and requires the user to create a new file by clicking **File** > **New File** > **R Script**
 
 <img src="img_05_02_07.png" width="75%">
 

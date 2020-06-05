@@ -2,15 +2,15 @@
 type: slides
 ---
 
-# The the pipe operator %>%
+# The pipe operator %>%
 
 ---
 
-# The the pipe operator `%>%`
+# The pipe operator `%>%`
 
 <img src="https://magrittr.tidyverse.org/logo.png?raw=true" width="10%">
 
-Imagine that we want to summarise the population average and standard deviation only of europe only. Using what you know about dplyr, you might write code like this:
+Imagine that we want to summarise the population average and standard deviation only of Europe. Using what you know about {dplyr}, you might write code like this:
 
 ```r
 gapminder_europe <- filter(gapminder, continent == "Europe")
@@ -25,7 +25,7 @@ This code is a little frustrating to write because we have to give each intermed
 
 ---
 
-# The the pipe operator `%>%` 
+# The pipe operator `%>%` 
 
 There’s another way to tackle the same problem with the pipe, `%>%`:
 
@@ -42,7 +42,7 @@ gapminder_summary_europe <- gapminder %>%
 
 ---
 
-# The the pipe operator `%>%` 
+# The pipe operator `%>%` 
 
 This focuses on the transformations, not what’s being transformed, which makes the code easier to read. You can read it as a series of imperative statements: group, then summarise, then filter in the first example and: filter, then summarise in the second example. As suggested by this reading, a good way to pronounce `%>%` when reading code is **“then”**.
 
@@ -64,7 +64,7 @@ create the object "gapminder_summary_europe" from the object "gapminder", then
 
 ---
 
-# The the pipe operator `%>%` 
+# The pipe operator `%>%` 
 
 Behind the scenes, `x %>% f(y)` turns into `f(x, y)`, and `x %>% f(y) %>% g(z)` turns into `g(f(x, y), z)` and so on. You can use the pipe to rewrite multiple operations in a way that you can read left-to-right, top-to-bottom. We’ll use piping frequently from now on because it considerably improves the readability of code.
 

@@ -45,13 +45,13 @@ ggplot(data = gapminder)
 
 <img src="img_03_02_01.png" width="75%">
 
-Only a grey frame is displayed. This is because we need to define the axises (aesthetic mapping) and their corresponding layers.
+Only a grey frame is displayed. This is because we need to define the axes (aesthetic mapping) and their corresponding layers.
 
 ---
 
 # Geometries
 
-**Geometries**, which are shapes we use to represent our data. There are a dedicated function for every type of shape to plot but all start with `geom_`
+**Geometries**, which are shapes we use to represent our data. There is a dedicated function for every type of shape to plot but all start with `geom_`
 
 |function          |shape    |
 |------------------|---------|
@@ -95,9 +95,9 @@ By default **geometries** inherit their mapping from the frame aesthetics (the o
 
 # Aesthetic mapping
 
-The **aesthetic mapping** refers to the frame of the plot, `x` for the variable in the x-axis and `y` for the variable in the y-axis. There are many more aesthetics such as `color`, `fill` and `group` but let's focus on the x and y axises for the moment. The mapping is performed by a function in {ggplot2} called `aes()` for aesthetics. 
+The **aesthetic mapping** refers to the frame of the plot, `x` for the variable in the x-axis and `y` for the variable in the y-axis. There are many more aesthetics such as `color`, `fill` and `group` but let's focus on the x and y axes for the moment. The mapping is performed by a function in {ggplot2} called `aes()` for aesthetics. 
 
-This is an essential concept to remember, the mapping of a plot (frame axises) is built from aesthetics.
+This is an essential concept to remember, the mapping of a plot (frame axes) is built from aesthetics.
 
 ```r
 ggplot(data = my_dataframe) +
@@ -115,7 +115,7 @@ ggplot(my_dataframe) +
   geom_point(aes(my_xaxis_variable, my_yaxis_variable))
 ```
 
-Obviously, some type of layer are not suitable for every aesthetics, it depends on how many variables are included and their type (categorical or continuous). 
+Obviously, some type of layers are not suitable for all aesthetics, it depends on how many variables are included and their type (categorical or continuous). 
 
 ---
 

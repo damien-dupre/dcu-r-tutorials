@@ -2,11 +2,11 @@
 type: slides
 ---
 
-# Customizing plots
+# Customising plots
 
 ---
 
-# Customizing plots
+# Customising plots
 
 Take a look at the ggplot2 [cheat sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf), and think of ways you could improve the plot.
 
@@ -16,7 +16,7 @@ Take a look at the ggplot2 [cheat sheet](https://www.rstudio.com/wp-content/uplo
 
 # Facets
 
-Before continuing with the next customization layers, let’s briefly introduce a new concept called faceting. Faceting is used when we’d like to split a particular visualization by the values of another variable. This will create multiple copies of the same type of plot with matching x and y axes, but whose content will differ.
+Before continuing with the next customization layers, let’s briefly introduce a new concept called faceting. Faceting is used when we’d like to split a particular visualisation by the values of another variable. This will create multiple copies of the same type of plot with matching x and y axes, but whose content will differ.
 
 For example, suppose we were interested in looking at the evolution of life expectancy by continent from 1952. We could “split” this figure for each continent. In other words, we would plot a scatter plot for each continent separately. We do this by adding `facet_wrap(~ continent)` layer.
 
@@ -35,7 +35,7 @@ The tilde is required and you’ll receive the error `Error in as.quoted(facets)
 
 # Facets
 
-We can also specify the number of rows and columns in the grid by using the `nrow` and `ncol` arguments inside of `facet_wrap()`. For example, say we would like our faceted figure to have 1 rows instead of 2. We simply add an `nrow = 1` argument to `facet_wrap(~ continent)`:
+We can also specify the number of rows and columns in the grid by using the `nrow` and `ncol` arguments inside of `facet_wrap()`. For example, suppose we would like our faceted figure to have 1 rows instead of 2. We simply add an `nrow = 1` argument to `facet_wrap(~ continent)`:
 
 ```r
 ggplot(gapminder) +
@@ -50,7 +50,7 @@ ggplot(gapminder) +
 
 # Labels (easy way)
 
-Now, let’s capitalize the x and y axis labels and add a main title to the figure. Ggplot has a layer called `labs()` in order to change the name of the axis labels very quickly. `labs()` has at least 3 arguments for us: x, y and title.
+Now, let’s capitalise the x and y axis labels and add a main title to the figure. Ggplot has a layer called `labs()` in order to change the name of the axis labels very quickly. `labs()` has at least 3 arguments for us: x, y and title.
 
 ```r
 ggplot(gapminder) +
@@ -139,13 +139,13 @@ ggplot(gapminder) +
 
 <img src="img_03_04_06.png" width="75%">
 
-Another very useful layer is `stat_summary()` but it will not be introduced here to leave you digest all these informations.
+Another very useful layer is `stat_summary()` but it will not be introduced here to leave you digest all this information.
 
 ---
 
-# Inherit propriety of geometries
+# Inherited propriety of geometries
 
-You can add as many geometry layers as you want, however repeating the mapping for each geometry layers is very redundant. Thankfully, if all your geometry layers are using the same aesthetics mapping, it is possible to include this mapping inside the `ggplot()`, then all the geometry layers will have the same mapping:
+You can add as many geometry layers as you want, however repeating the mapping for each geometry layer is very redundant. Thankfully, if all your geometry layers are using the same aesthetics mapping, it is possible to include this mapping inside the `ggplot()`, then all the geometry layers will have the same mapping:
 
 ```r
 ggplot(gapminder, aes(x = year, y = lifeExp, color = continent)) +

@@ -8,9 +8,9 @@ type: slides
 
 # Hypothesis testing
 
-If they are expert in their field, why don't scientists just use common sense? The best answer is a really simple one: **we can't trust them**. Scientists can't solve **deductive** problems (ones where no guessing is required such as hypothesizing after the results are known) without being influenced by pre-existing biases.
+If they are experts in their field, why don't scientists just use common sense? The best answer is a really simple one: **we can't trust them**. Scientists can't solve **deductive** problems (ones where no guessing is required such as hypothesising after the results are known) without being influenced by pre-existing biases.
 
-Instead, scientific reasoning  requires to engage in **induction**, making wise guesses and going beyond the immediate evidence of the senses to make generalisations about the world. Therefore, much of statistics is basically a safeguard.
+Instead, scientific reasoning requires engagement in **induction**, making wise guesses and going beyond the immediate evidence of the senses to make generalisations about the world. Therefore, much of statistics is functions as a safeguard.
 
 **Inductive research** is the process of formulating hypotheses a priori from theories and to test them against the data. Every hypothesis, called H<sub>A</sub> has to state a difference (between groups or according values) and every hypothesis has a null hypothesis counterpart (no difference between groups or according values) also called H<sub>0</sub>.
 
@@ -35,7 +35,7 @@ In the context of this tutorial, any hypothesis formulate the prediction of the 
 For each hypothesis, let's denote the:
 
 - **"variable being explained"** as Y (also called Dependent Variable (DV) or Outcome). This variable has to be unique and made of numeric values (i.e., continuous).
-- **"variables doing the explaining"** as X, Z, ... (also called Independent Variables (IV) or Predictors). An hypothesis contain only one variable if this hypothesis states a main effect and two or more variables if this hypothesis is an interaction. The variable(s) can be either made of character strings (i.e., categorical) or made of numeric values (i.e., continuous).
+- **"variables doing the explaining"** as X, Z, ... (also called Independent Variables (IV) or Predictors). An hypothesis contains only one variable if this hypothesis states a main effect, and it contains two or more variables if this hypothesis is an interaction. The variable(s) can be either made of character strings (i.e., categorical) or made of numeric values (i.e., continuous).
 - &beta; as the strength and the direction of the relationship between the **"variables doing the explaining"** and the **"variable being explained"**.
 
 ---
@@ -67,9 +67,9 @@ The relation between one Independent Variable (X) and one Dependent Variable (Y)
 
 # Interaction effect hypothesis
 
-An interaction effect is the prediction of the relation between one continuous Dependent Variable ("variable being explained") and two or more Independent Variables ("variables doing the explaining") that can be either categorical or continuous.
+An interaction effect is the prediction of the relationship between one continuous Dependent Variable ("variable being explained") and two or more Independent Variables ("variables doing the explaining") that can be either categorical or continuous.
 
-The general formulation of an interaction effect hypothesis with 2 Independent Variables is: **"The effect of the Independent Variable 1 on the Dependent Variable changes according to the values of the Independent Variable 2"**.
+The general formulation of an interaction effect hypothesis with 2 Independent Variables is: **"The effect of Independent Variable 1 on the Dependent Variable changes according to the values of Independent Variable 2"**.
 
 ---
 
@@ -87,12 +87,12 @@ Both models can be read as:
 
 # Evaluation of the effect significance
 
-One all the hypotheses are formulated, it is time to test all of them in one unique model. In this model, a value called &beta; which is usually the coefficient of correlation is associated to each predictor from the hypotheses. Testing for the significance of the effect means evaluating if this &beta; value is significantly different, higher or lower than 0 (no link between variables):
+Once all the hypotheses are formulated, it is time to test all of them in one unique model. In this model, a value called &beta; which is usually the coefficient of correlation is associated to each predictor from the hypotheses. Testing for the significance of the effect means evaluating if this &beta; value is significantly different, higher or lower than 0 (no link between variables):
 
 - H<sub>A</sub>: &beta; &ne; 0
 - H<sub>0</sub>: &beta; = 0
 
-To test the significance of the effects, only one statistical method will be used for all hypothesis type: Linear Regression. Specific tests are available for certain type of hypothesis such as T-test or ANOVA but as they are special case of Linear Regression, their importance is limited (see Jonas Kristoffer Lindeløv's blog post: [Common statistical tests are linear models](https://lindeloev.github.io/tests-as-linear/)).
+To test the significance of the effects, only one statistical method will be used for all hypotheses types which are Linear Regressions. Specific tests are available for certain type of hypothesis such as T-test or ANOVA but as they are special cases of Linear Regressions, their importance is limited (see Jonas Kristoffer Lindeløv's blog post: [Common statistical tests are linear models](https://lindeloev.github.io/tests-as-linear/)).
 
 ---
 

@@ -64,7 +64,7 @@ const Layout = ({ isHome, title, description, children }) => {
                                         <H3>About me</H3>
                                         {meta.showProfileImage && (
                                             <img
-                                                src="/profile.jpg"
+                                                src="https://www.dcu.ie/sites/default/files/styles/max_1300x1300/public/dcu_business_school_editor/2025-01/professional_picture.jpeg"
                                                 alt=""
                                                 className={classes.profile}
                                             />

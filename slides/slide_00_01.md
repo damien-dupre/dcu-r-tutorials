@@ -7,7 +7,7 @@ My name is Damien and I am Assistant Professor of Business Research Methods at D
 
 With this series of Tutorials, I would like to introduce you to the use of R with the Tidyverse style. I will also finish with a tutorial on how to run hypotheses testing in R using the frequentist approach.
 
-<img src="profile.jpg" alt="Damien Dupré" width="25%">
+<img src="https://www.dcu.ie/sites/default/files/styles/max_1300x1300/public/dcu_business_school_editor/2025-01/professional_picture.jpeg" alt="Damien Dupré" width="25%">
 
 Note: But for now, **click on the forward arrow here below** to display the next steps...
 
